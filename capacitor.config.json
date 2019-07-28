@@ -1,0 +1,7 @@
+{
+  "appId": "io.kerrongordon.brigade",
+  "appName": "brigade",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}
