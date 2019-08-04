@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Reports</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list>
+
+    <ion-card>
+      <ion-item lines="none" (click)="openReport()">
+        <ion-icon name="bookmark" slot="start"></ion-icon>
+        <ion-label>Kerron Gordon</ion-label>
+        <ion-badge slot="end">2019</ion-badge>
+      </ion-item>
+    </ion-card>
+
+    <ion-card>
+      <ion-item lines="none" (click)="openReport()">
+        <ion-icon name="bookmark" slot="start"></ion-icon>
+        <ion-label>Kerron Gordon</ion-label>
+        <ion-badge slot="end">2019</ion-badge>
+      </ion-item>
+    </ion-card>
+
+  </ion-list>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button (click)="openAddReportPage()">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+</ion-content>
